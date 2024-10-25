@@ -1,2 +1,2 @@
-# FlowerShop
+# Flower Shop
 Не ни гледайте проекта, шпиони
