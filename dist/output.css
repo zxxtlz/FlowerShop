@@ -1126,3 +1126,15 @@ video {
   --tw-text-opacity: 1;
   color: rgb(100 116 139 / var(--tw-text-opacity));
 }
+
+:root {
+  --base-color: white;
+  --base-text: black;
+  --hover-text: rgb(107 114 128);
+}
+
+.darkmode {
+  --base-color: #030712;
+  --base-text: white;
+  --hover-text: rgb(107 114 128);
+}
