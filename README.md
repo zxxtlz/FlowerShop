@@ -24,11 +24,16 @@
 </p>
 
 <p align="center">
-  •<a href="#usage">Usage And Installation</a>
+  <a href="#download">Download</a>•
+  <a href="#usage">Usage</a>
 </p>
 
 
+# Download
+
+You can download the latest installable version of the Garden Boys website for Windows, macOS and Linux.
+
 # Usage
 
-Install from the releases, extract, import the folder in Visual Studio Code and the index.html in the /dist directory with a live server 
-
+Extract the zip file, import the folder in Visual Studio Code and open the index.html in the /dist directory with a live server 
+(You must install a live server extension, it is the easiest way to turn on the website)
