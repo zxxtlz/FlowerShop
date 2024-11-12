@@ -15,6 +15,11 @@
   <link href="output.css" rel="stylesheet">
 </head>
 <body class="font-[Poppins] bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee] h-screen">
+    <style>
+        * {
+            scroll-behavior: smooth;
+        }
+    </style>
     <script>
         function theme(event) {
             console.log('theme')
@@ -71,19 +76,16 @@
                 class="nav-links duration-500 md:static fixed md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5 sm:transition-none sm:bg-white sm:dark:bg-gray-950">
                 <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
                     <li>
+                        <a class="text-black hover:text-gray-500 transition dark:text-white dark:hover:text-gray-500" href="#home">Home</a>
+                    </li>
+                    <li>
                         <a class="text-black hover:text-gray-500 transition dark:text-white dark:hover:text-gray-500" href="#products">Products</a>
                     </li>
                     <li>
-                        <a class="text-black hover:text-gray-500 transition dark:text-white dark:hover:text-gray-500" href="#">Solution</a>
+                        <a class="text-black hover:text-gray-500 transition dark:text-white dark:hover:text-gray-500" href="#reviews">Reviews</a>
                     </li>
                     <li>
-                        <a class="text-black hover:text-gray-500 transition dark:text-white dark:hover:text-gray-500" href="#">Resource</a>
-                    </li>
-                    <li>
-                        <a class="text-black hover:text-gray-500 transition dark:text-white dark:hover:text-gray-500" href="#">Developers</a>
-                    </li>
-                    <li>
-                        <a class="text-black hover:text-gray-500 transition dark:text-white dark:hover:text-gray-500"  href="#">Pricing</a>
+                        <a class="text-black hover:text-gray-500 transition dark:text-white dark:hover:text-gray-500" href="#team">Developers</a>
                     </li>
                 </ul>
             </div>
@@ -112,7 +114,7 @@
     </header>
 
     <div>
-        <section id="thisection" class="bg-white dark:bg-gray-950 pt-10">
+        <section id="home" class="bg-white dark:bg-gray-950 pt-10">
             <div class="container px-6 py-16 mx-auto ">
                 <div class="lg:flex lg:items-center ">
                     <div class="w-full space-y-12 lg:w-1/2 ">
@@ -419,7 +421,7 @@
                 </div>
             </main>
             
-            <section class="bg-white dark:bg-gray-950 h-[60%] overflow-x-auto flex items-center">
+            <section id="reviews" class="bg-white dark:bg-gray-950 h-[60%] overflow-y-hidden overflow-x-show flex items-center">
                 <div class="flex w-full max-w-[26rem] flex-col rounded-xl bg-transparent bg-clip-border text-gray-700 bg-white dark:bg-black dark:text-white mx-16 my-16 py-6 px-6 shadow-xl">
                     <div class="mx-0 mt-4 flex items-center gap-4 overflow-hidden rounded-xl bg-transparent bg-clip-border pt-0 pb-8 pr-16 text-gray-700 shadow-none">
                       <img
@@ -637,7 +639,7 @@
 
 
             <div>
-                <section id="thisection" class="bg-white dark:bg-gray-950 pt-10">
+                <section id="team" class="bg-white dark:bg-gray-950 pt-10">
                     <div class="container px-6 py-16 mx-auto ">
                         <div class="lg:flex lg:items-center ">
                             <div class="hidden lg:flex lg:items-center flex-col lg:w-1/2 lg:justify-center">
@@ -755,9 +757,9 @@
 <!-- Code block starts -->
 <dh-component>
             
-    <div class="py-12 bg-gray-700 transition duration-150 ease-in-out z-10 fixed top-0 right-0 bottom-0 left-0 fixed hidden" id="modal">
-        <div role="alert" class="container mx-auto w-11/12 md:w-2/3 max-w-lg">
-            <div class="relative mt-[30%] py-8 px-5 md:px-10 bg-white shadow-md rounded border border-gray-400 dark:bg-gray-950">
+    <div class="py-12 bg-gray-700 transition duration-150 ease-in-out z-10 fixed top-0 right-0 bottom-0 left-0 fixed hidden overflow-y-auto" id="modal">
+        <div role="alert" class="relative bottom-[3%] mx-auto w-11/12 md:w-2/3 max-w-lg">
+            <div class="relative py-8 px-5 md:px-10 bg-white shadow-md rounded border border-gray-400 dark:bg-gray-950">
                 <div class="w-full flex justify-start text-gray-600 mb-3">
                     <svg  xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-wallet" width="52" height="52" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path class="dark:text-white" stroke="none" d="M0 0h24v24H0z" />
