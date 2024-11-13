@@ -4,7 +4,7 @@
 
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/zxxtlz/Flower_Shop/refs/heads/main/images/logo2.png" alt="Flower_Shop"></a>
+  <img src="https://raw.githubusercontent.com/zxxtlz/Flower_Shop/refs/heads/main/images/logo2.png" alt="Flower_Shop">
   <br>
   <b>Garden Boys</b>
   <br>
@@ -24,10 +24,19 @@
 </p>
 
 <p align="center">
-  <a href="#download">Download</a>•
+  <a href="#key-features">Key Features</a> •
+  <a href="#download">Download</a> •
   <a href="#usage">Usage</a>
 </p>
 
+# Key Features
+<ul>
+  <li>Easy to navigate user interface 👴🏻👵🏻</li>
+  <li>Responsive design ( Supports all resolutions ) 🖥️📺📱</li>
+  <li>Dark mode (So you don't hurt your eyes) 👁️👄👁️ ☀️/🌙</li>
+  <li>No data collection ( No database ) 🧑🏼‍💻👨🏼‍💻</li>
+  <li>Open source (Its on github, duhh) 🔓</li>
+</ul>
 
 # Download
 
