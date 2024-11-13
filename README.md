@@ -20,7 +20,8 @@
 
 <p align="center">
   <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/t/zxxtlz/Flower_Shop">
-  <img alt="GitHub Downloads (all assets, all releases)" src="https://img.shields.io/github/downloads/:user/Flower_Shop/total">
+  <img alt="GitHub Downloads (all assets, all releases)" src="https://img.shields.io/github/downloads/zxxtlz/Flower_Shop/total">
+  <img alt="GitHub Release" src="https://img.shields.io/github/v/release/zxxtlz/Flower_Shop">
 </p>
 
 <p align="center">
